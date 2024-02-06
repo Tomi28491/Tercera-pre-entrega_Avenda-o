@@ -70,4 +70,4 @@ def sucursal(request):
     else:    
         miForm = SucursalForm()
 
-    return render(request, "Clientes/crear_cuenta.html", {"form": miForm })
+    return render(request, "Clientes/sucursal.html", {"form": miForm })

@@ -1,0 +1,22 @@
+# Nombre de Proyecto:
+# Alumno: Avendaño Tomas 
+# Fecha: 06/02/2024
+# Versión: tercera pre-entrega 4 
+
+# Aplicacion que permite publicar productos de indumentaria
+
+- Los modelos que presenta esta aplicacion son:
+  - Usuario
+  - Producto
+  - Sucursal
+
+- Orden de prueba de la aplicacion 
+  - Existe una pestaña de home para estar en el menu principal
+  - Crear cuenta: localhost:8000/aplicacion//crear_cuenta/
+  - Complete el formulario para crear un usuario
+  - En la pestaña de Productos hay 3 opciones
+     Agregar producto: localhost:8000/aplicacion/agregar_productos/
+     Buscar un producto: localhost:8000/aplicacion/buscar/
+     Ver todos los productos: localhost:8000/aplicacion/productos/
+  - Y una pestaña para crear una sucursal: localhost:8000/aplicacion/sucursal/
+  
