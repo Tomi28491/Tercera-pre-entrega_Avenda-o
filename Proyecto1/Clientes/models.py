@@ -18,6 +18,9 @@ class Sucursal(models.Model):
     direccion = models.CharField(max_length=50)
     numero = models.IntegerField()
     ciudad = models.CharField(max_length=50)
+    class Meta:
+        verbose_name = "Sucursal"
+        verbose_name_plural = "Sucursales"
     
 
 
